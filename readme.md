@@ -9,7 +9,7 @@
 ## Some principles:
 
 1. Don’t eat in the computer lab.
-2. It’s fine to speak Chinese.
+2. It’s fine to speak Chinese when you ask questions privately.
 3. Try to learn yourself.
 
 ## Additional Contents
