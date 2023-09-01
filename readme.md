@@ -1,7 +1,3 @@
-# README
-
-Created: August 31, 2023 3:11 PM
-
 # Lab of UFUG2601 (L1) - C++ Programming
 
 ## Pre-requisites:
