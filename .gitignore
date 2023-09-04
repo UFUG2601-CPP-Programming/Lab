@@ -1,0 +1,46 @@
+# 忽略C++构建输出文件
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# 忽略C++项目文件
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# 忽略IDE项目文件
+.vscode/
+.idea/
+
+# 忽略编译器生成的文件
+__pycache__/
+*.pyc
+
+# 忽略单元测试输出
+test/
+output/
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# 忽略日志文件
+*.log
+
+# 忽略静态/动态库
+*.dll
+*.so
+*.dylib
+
+# 忽略文档输出
+docs/
+doc/
+
+# 忽略Git文件
+.git/
+
+# 忽略操作系统生成的文件
+Thumbs.db
+.DS_Store
