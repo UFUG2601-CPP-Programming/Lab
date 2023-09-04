@@ -45,5 +45,6 @@ We encourage you to use AIGC tools or GPT for learning purposes, but keep it in 
 If you encountered any problem during your labs or assignments, you could contact us (TAs) and professors for help. But before that, it would be best to make sure that you have comprehensively understood [the way of asking](#How-to-Search-or-Ask), please at least give them a glance, it would make our communications easier.
 
 TAs:
-Zijun JIANG : [zjiang438@connect.hkust-gz.edu.cn](mailto:zjiang438@connect.hkust-gz.edu.cn)
-Ziyue ZHENG : [zzheng989@connect.hkust-gz.edu.cn](mailto:zzheng989@connect.hkust-gz.edu.cn)
+
++ Zijun JIANG : [zjiang438@connect.hkust-gz.edu.cn](mailto:zjiang438@connect.hkust-gz.edu.cn)
++ Ziyue ZHENG : [zzheng989@connect.hkust-gz.edu.cn](mailto:zzheng989@connect.hkust-gz.edu.cn)
