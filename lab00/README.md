@@ -100,7 +100,9 @@ We also provide a simple tutorial in this section:
 
 [Set up a WSL development environment | Microsoft Learn](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
 
-When using WSL, a good terminal software could be helpful as well, I personally recommend **[MobaXterm](https://mobaxterm.mobatek.net/)**. It has a very good integration with WSL, and you can also use it for **SSH terminal or even Windows terminal**. (What is **SSH**? Well, try to learn it yourself)
+When using WSL, a good terminal software could be helpful as well, I personally recommend **[MobaXterm](https://mobaxterm.mobatek.net/)**. It has a very good integration with WSL, and you can also use it for **SSH terminal or even Windows terminal**. (What is **SSH**? Well, try to learn it yourself).
+
+VS Code also has an extension for WSL, you can install VS Code on your Windows and use it with WSL.
 
 ### If you are a Linux user (😎Cool!)
 
