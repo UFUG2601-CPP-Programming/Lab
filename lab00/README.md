@@ -81,7 +81,7 @@ Because Linux is currently the environment for all mainstream applications, incl
     You should get the same "Hello, World!" result. To learn more about what `make` does, you can check the file `lab00/Makefile` in VS Code.
     
 
-## Task 2: Install the C++ development environment on your own PC/laptop (You may refer to the new screen recording on Canvas instead following steps below, but you also can try if you are interested.)
+## Task 2: Install the C++ development environment on your own PC/laptop (You may refer to the new screen recording on Canvas instead of following steps below, but you also can try if you are interested.)
 
 There are multiple ways to install the development environment on your own PC or laptop, and each of them has its own pros and cons. 
 
