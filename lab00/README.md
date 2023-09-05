@@ -72,7 +72,13 @@ There are multiple ways to install the development environment on your own PC or
 
 ### If you are a Mac user,
 
-Congratulation! You probably already have the C++ toolchains (e.g., GCC) on your MacOS, all you need to do is install other tools like VS Code. If you still want to play with Ubuntu, you can follow the instructions of the **method 1** below. However, the version of software and image you need to download might be different, you need to figure them out by yourself.
+Congratulation! You probably already have the C++ toolchains (e.g., GCC) on your MacOS, all you need to do is install other tools like VS Code. If you still want to play with Ubuntu, you can follow the instructions of the **method 1** below. However, the version of software and image you need to download might be different, you need to figure them out by yourself. 
+
+Here is the image for Mac with ARM64 architecture:
+
+https://cdimage.ubuntu.com/jammy/daily-live/current/jammy-desktop-arm64.iso
+
+However, it is using Ubuntu 22.04,  which is slightly different from the 20.04 we use in other methods, but it should be fine for the lab usages.
 
 ### If you are a Windows user,
 
