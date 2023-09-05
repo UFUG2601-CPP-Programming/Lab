@@ -7,6 +7,7 @@
 3. Configure the lab environment (Ubuntu) in your laptop.
 4. Run your "Hello World" program in your personal lab environment.
 
+
 ## Example of the “Hello, World!” Program in C++
 
 ![Simple Hello World Code](./img/0.png)
@@ -21,11 +22,25 @@ In C++, it’s a good habit to write comments in our code. They won’t have any
 Two common ways of writing comments in C++ are:
 
 1. Start with `//` , commenting in a single line.
-2. Start with `/*` and end with `\*`, commenting in multiple lines. 
+2. Start with `/*` and end with `*/`, commenting in multiple lines. 
 
 Here, we use comments to explain each line of code:
 
 ![Simple Hello World Code With comments](./img/1.png)
+
+## Some Illustrative Questions
+
+### 1. What programs do?
+
+We want computer programs to help us do tasks and solve problems. For example, the task of an adder requires accepting **two values as inputs and returning one value as output**. The definition should be `int adder(int a, int b)`.  This may confuse you but it also can helps us understand why the function in a computer always has input parameters and a return value.
+
+### 2. Why we encourage you to type every single character of every command in the lab?
+
+This is because it allows you to become familiar with programming commands and code, so that you can better identify errors in your code in the future. (We went through the same process haha.)
+
+### 3. Why we use Linux(Ubuntu) as our experimental environment? 
+
+Because Linux is currently the environment for all mainstream applications, including machine learning, database, and server development. It is more brief and stable than Windows. Understanding this operating system is very helpful for future development, research, and job searching.
 
 ## Task 1: Write and run the "Hello World" program in C++ language.
 
@@ -33,9 +48,9 @@ Here, we use comments to explain each line of code:
 2. Click **Ubuntu**, then wait for the operating system (**OS**) to start up.
 3. Open "Terminal" through shortcut `ctrl+alt+t`.
 
-    (optional) 3.1. Enter `pwd` in the terminal to see the current directory.
+    (optional) 3.1. Enter `pwd` in the terminal to **see the current directory**.
     
-    (optional) 3.2. Enter `ls` to see folder(s) and file(s) inside the current directory.
+    (optional) 3.2. Enter `ls` to **see folder(s) and file(s) inside the current directory**.
 
     (optional) 3.3. Enter `cd Desktop` in the terminal to enter another directory.
     
@@ -45,9 +60,9 @@ Here, we use comments to explain each line of code:
     
     4.2. Open the *Extensions* (`ctrl+shift+x`) Tab in vscode, search for extension: **C/C++** and install it.
     
-5. Use File Explorer (on the left) to open file `lab00/lab00.cpp`.
-6. Write your code in `lab00.cpp` according to comments and slides in the lab. 
-7. Open a terminal in VS Code (`ctrl+shift+`), and enter the following commands in order:
+5. Use File Explorer (the first icon on the left in **vscode**) to open file `lab00/lab00.cpp`.
+6. Write your code in `lab00.cpp` according to comments and slides in the lab(You should pay attention to the **indent** of the code, try using the **tab key** in the upper left corner of the keyboard for **indentation**.). 
+7. Open a terminal in VS Code (`ctrl+shift+\`), and enter the following commands in order(Make sure you already **save(ctrl+s)** the file):
     
     ```bash
     cd lab00
@@ -66,19 +81,13 @@ Here, we use comments to explain each line of code:
     You should get the same "Hello, World!" result. To learn more about what `make` does, you can check the file `lab00/Makefile` in VS Code.
     
 
-## Task 2: Install the C++ development environment on your own PC/laptop
+## Task 2: Install the C++ development environment on your own PC/laptop (You may refer to the new screen recording on Canvas instead following steps below, but you also can try if you are interested.)
 
 There are multiple ways to install the development environment on your own PC or laptop, and each of them has its own pros and cons. 
 
 ### If you are a Mac user,
 
-Congratulation! You probably already have the C++ toolchains (e.g., GCC) on your MacOS, all you need to do is install other tools like VS Code. If you still want to play with Ubuntu, you can follow the instructions of the **method 1** below. However, the version of software and image you need to download might be different, you need to figure them out by yourself. 
-
-Here is the image for Mac with ARM64 architecture:
-
-https://cdimage.ubuntu.com/jammy/daily-live/current/jammy-desktop-arm64.iso
-
-However, it is using Ubuntu 22.04,  which is slightly different from the 20.04 we use in other methods, but it should be fine for the lab usages.
+Congratulation! You probably already have the C++ toolchains (e.g., GCC) on your MacOS, all you need to do is install other tools like VS Code. If you still want to play with Ubuntu, you can follow the instructions of the **method 1** below. However, the version of software and image you need to download might be different, you need to figure them out by yourself.
 
 ### If you are a Windows user,
 
