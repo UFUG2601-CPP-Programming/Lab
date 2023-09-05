@@ -62,7 +62,7 @@ Because Linux is currently the environment for all mainstream applications, incl
     
 5. Use File Explorer (the first icon on the left in **vscode**) to open file `lab00/lab00.cpp`.
 6. Write your code in `lab00.cpp` according to comments and slides in the lab(You should pay attention to the **indent** of the code, try using the **tab key** in the upper left corner of the keyboard for **indentation**.). 
-7. Open a terminal in VS Code (`ctrl+shift+\`), and enter the following commands in order(Make sure you already **save(ctrl+s)** the file):
+7. Open a terminal in VS Code (`ctrl+shift+``), and enter the following commands in order(Make sure you already **save(ctrl+s)** the file):
     
     ```bash
     cd lab00
