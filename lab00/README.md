@@ -4,8 +4,8 @@
 
 1. Write and run the "Hello World" program in C++ language (in our computer lab).
 2. Understand the *command line interface* **(CLI)** "terminal", *integrated development environment* **(IDE)** "visual studio code (**vscode**)" and version control tool "git".
-3. Configure the lab environment (Ubuntu) in your laptop.
-4. Run your "Hello World" program in your personal lab environment.
+3. Configure the lab environment (Ubuntu) in your laptop. (optional)
+4. Run your "Hello World" program in your personal lab environment. (optional)
 
 
 ## Example of the “Hello, World!” Program in C++
