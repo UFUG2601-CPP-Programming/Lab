@@ -2,10 +2,9 @@
 
 ## Our Goal in Lab 01
 
-1. Learn to declare variables of different data types
-2. Learn to output variables of different data types
-3. Learn and understand the ASCII table
-4. Learn the limits of different data types
+1. Learn to declare variables of different data types.
+2. Learn to output variables of different data types.
+3. Learn the limits of different data types.
 
 ## Some illustrative Questions in the Lecture and Lab Session
 
@@ -59,13 +58,13 @@ The cppreference is a very useful website that you can refer to.
 int main(){
 	//Define a intger number "n_int"
 	int n_int;
-
+	
 	//Assign a value to n_int
 	n_int = 10;
-
+	
 	//Print the integer number
 	std::cout << "The value of defined integer is:" << n_int << std::endl;
-
+	
 	return 0;
 
 }
@@ -123,7 +122,7 @@ int main(){
 
 int main(){
 	//Define a string "str"
-	string str;
+	std::string str;
 
 	//Assign the value to n_int
 	str = "STRING";
