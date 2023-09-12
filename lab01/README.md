@@ -53,7 +53,7 @@ The cppreference is a very useful website that you can refer to.
 ### Task 1.1 Define and Print a Number i.e. `int`
 
 ```cpp
-#include <iostream>
+#incldue <iostream>
 
 int main(){
 	//Define a intger number "n_int"
@@ -73,7 +73,7 @@ int main(){
 ### Task 1.2 Define and Print a Number, i.e. `short`, `unsinged`, `long long`, `float`, `double`
 
 ```cpp
-#include <iostream>
+#incldue <iostream>
 
 int main(){
 	//Define a number 
@@ -98,7 +98,7 @@ int main(){
 ### Task 2.1 Define and print a character.
 
 ```cpp
-#include <iostream>
+#incldue <iostream>
 
 int main(){
 	//Define a character "chr"
@@ -118,7 +118,7 @@ int main(){
 ### Task 2.2 Define and print a string
 
 ```cpp
-#include <iostream>
+#incldue <iostream>
 
 int main(){
 	//Define a string "str"
@@ -146,8 +146,8 @@ int main(){
 We can use the utilities from the header file `<limits>` to check the numeric limits of data types.
 
 ```cpp
-#include <iostream>
-#include <limits>
+#incldue <iostream>
+#incldue <limits>
 
 int main(){
 		
