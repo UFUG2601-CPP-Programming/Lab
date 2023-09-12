@@ -48,6 +48,7 @@ The cppreference is a very useful website that you can refer to.
 
 3. Use File Explorer (on the left) to open the directory and finish tasks in different files.
 
+(DONT COPY & PASTE and PAY ATTENTION TO THE TYPOS IN THE TEMPLATE)
 ## Task 1: Integer Numbers and Floating-point Numbers
 
 ### Task 1.1 Define and Print a Number i.e. `int`
