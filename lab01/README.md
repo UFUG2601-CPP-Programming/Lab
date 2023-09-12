@@ -205,13 +205,6 @@ int main(){
 4. What does the ‘<>’ mean in `std::numeric_limits<datatype>`?
 
 
-## Thinking Time
-
-1. Where do the limits of each data type come from? What do they represent?
-2. What’s the relationship between these numeric limits and sizes? When will these limits change? 
-3. What will happen if we assign some value out of the limits to the variables of these data types?
-4. What does the ‘<>’ mean in `std::numeric_limits<datatype>`?
-
 ## Additional Contents
 
 ### Prettier Console Output
