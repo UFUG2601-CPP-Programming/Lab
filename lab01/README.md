@@ -5,6 +5,7 @@
 1. Learn to declare variables of different data types.
 2. Learn to output variables of different data types.
 3. Learn the limits of different data types.
+4. Setup Ubuntu environment for those still unable to run C++ program on your own computers.
 
 ## Some illustrative Questions in the Lecture and Lab Session
 
@@ -47,7 +48,7 @@ The cppreference is a very useful website that you can refer to.
 
 3. Use File Explorer (on the left) to open the directory and finish tasks in different files.
 
-(DONT COPY & PASTE and PAY ATTENTION TO THE TYPOS IN THE TEMPLATE)
+## (DONT COPY & PASTE and PAY ATTENTION TO THE TYPOS IN THE TEMPLATE)
 ## Task 1: Integer Numbers and Floating-point Numbers
 
 ### Task 1.1 Define and Print a Number i.e. `int`
@@ -85,6 +86,18 @@ int main(){
 	return 0;
 
 }
+```
+
+### Compile and Run Task 1
+
+```shell
+g++ lab01_Task1.cpp -o Task1
+./Task1
+
+OR
+
+make Task1
+./Task1
 ```
 
 ### (Optional) What will happen if overflow?
@@ -135,11 +148,23 @@ int main(){
 }
 ```
 
+### Compile and Run Task 1
+
+```shell
+g++ lab01_Task2.cpp -o Task2
+./Task2
+
+OR
+
+make Task2
+./Task2
+```
+
 ### (Optional) How to assign value `"` to `chr`?
 
 ### (Optional) What is the size of the `char` and why? What is the size of the string `str`?
 
-### (Optional) How to contact two strings?
+### (Optional) How to concat two strings?
 
 ## Task 3: Learn the limits of data types
 
