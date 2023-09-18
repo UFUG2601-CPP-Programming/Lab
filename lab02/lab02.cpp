@@ -14,6 +14,7 @@ int main(){
     result = /* Fill your expression here*/;
 
     // (Optional) Try to declare varibles with different types.
+    // For example: float, char, bool, string, etc..
     // And try to apply the operators above again.
     
     // 2.4 Output the result

@@ -11,6 +11,9 @@ EXECUTABLE := lab02
 $(EXECUTABLE): $(SOURCE)
 	$(CXX) -o $@ $<
 
+run: $(EXECUTABLE)
+	./$^
+
 clean:
 	rm -f $(EXECUTABLE)
 
