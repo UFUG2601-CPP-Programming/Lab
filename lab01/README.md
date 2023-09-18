@@ -104,7 +104,7 @@ make Task1
 
 ### (Optional) How to get the sum of an integer and float?
 
-### (Optional) How to print float reserve two decimals without changing the number of values?
+### (Optional) How to output a floating-point number as a two-digit decimal number, while not changing its actual value? (Hint: `std::setprecision`)
 
 ## Task 2: Character and String
 
