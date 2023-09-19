@@ -108,7 +108,7 @@ Here is a simple example in C++ that demonstrates lazy evaluation:
 int main() {
   int x = 5;
   int y = 10;
-  bool result = (x > 3) && (y < 5);
+  bool result = (x < 3) && (y < 5);
   
   std::cout << "Result: " << result << std::endl;
   
@@ -116,7 +116,7 @@ int main() {
 }
 ```
 
-In this example, we have two integer variables `x` and `y`, and a boolean variable result. We also have an expression that checks if `x` is greater than `3` and if `y` is less than `5`. However, because of lazy evaluation, the second part of the expression `y < 5` is never evaluated. This is because the first part of the expression `x > 3` is already `false`.
+In this example, we have two integer variables `x` and `y`, and a boolean variable result. We also have an expression that checks if `x` is greater than `3` and if `y` is less than `5`. However, because of lazy evaluation, the second part of the expression `y < 5` is never evaluated. This is because the first part of the expression `x < 3` is already `false`.
 
 Another complex example is demonstrated as follows:
 ```CPP
