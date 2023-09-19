@@ -6,6 +6,8 @@
 2. Recap the operators and use them to compute
 3. Use control syntax (e.g. `if-else`) to control the program
 
+## Task 0: Get this Github Repo through Methods you Learned in previous Labs.
+
 ## Task 1: Learn to use Online Judge (OJ)
 
 1. Open the OJ ([http://10.5.178.148/](http://10.5.178.148)) in your web browser. 
