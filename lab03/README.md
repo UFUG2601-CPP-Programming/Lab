@@ -59,8 +59,8 @@ int main() {
 - Please use `\t` for aligned outputs.
 
 ## Task 2: **Perfect Square Checker**
-- Firstly, Try to use `<math>` header to solve the problem.
-- Then, try to solve the problem without `<math>`.
+- Firstly, Try to use `<math>` header and `sqrt` function to solve the problem.
+- Then, try to solve the problem without `sqrt`.
 - Just simply write a for loop to check every square of the number.
 - A template for solving this problem is shown as follows:
 
@@ -71,7 +71,7 @@ int main() {
     for(int i = 0;i < n;++i){
       int A;
       cin>>A;
-			//Write your code
+      //Write your code
     }
     return 0;
 }
