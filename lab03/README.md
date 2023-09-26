@@ -59,8 +59,7 @@ int main() {
 - Please use `\t` for aligned outputs.
 
 ## Task 2: **Perfect Square Checker**
-- Firstly, Try to use `<math>` header and `sqrt` function to solve the problem.
-- Then, try to solve the problem without `sqrt`.
+- Please try to solve the problem without `sqrt`.
 - Just simply write a for loop to check every square of the number.
 - A template for solving this problem is shown as follows:
 
