@@ -15,7 +15,7 @@
 int seed = 114514; 
 
 void push_random_number(std::vector<int> &v){
-    int rand_num = std::srand(seed);
+    int rand_num = std::rand();
     /*
         TODO: Fill your code here to push a random element into the 
             vector v.
@@ -24,6 +24,8 @@ void push_random_number(std::vector<int> &v){
 
 // Main function
 int main(){
+    // Set the random seed for the program
+    std::srand(seed);
 
     /*
         The program receives an integer n - the length of the vector,
