@@ -9,6 +9,8 @@
 1. Get the Lab code from Github, and open the Lab folder in VS Code or your favorite editor.
 2. Create a folder call `.vscode` in the root directory of your Lab folder.
 3. Copy `launch.json` and `tasks.json` into `.vscode` folder.
-4. Run code and try to debug the code.
 
-## Task 1:
+
+## Task 1: Debug lab05.cpp
+1. Run code and try to debug the lab05.cpp .
+2. Step 
