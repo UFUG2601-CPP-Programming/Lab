@@ -6,7 +6,7 @@
 3. Finish the problem in OJ.
 
 ## Fibonacci Series in Recursion
-```
+```cpp
 #include <iostream>
 
 int fib(int n) {
