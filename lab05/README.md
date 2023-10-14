@@ -13,4 +13,9 @@
 
 ## Task 1: Debug lab05.cpp
 1. Run code and try to debug the lab05.cpp .
-2. Step 
+2. Try to set breakpoint and press `continue`.
+3. Try to press `step over`, `step into` and `step out`.
+4. Try to debug lab05.cpp with input 5 step by step.
+
+
+## 
