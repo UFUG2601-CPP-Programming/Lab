@@ -1,8 +1,8 @@
-# Lab 05 - The challenges from recurssion
+# Lab 05 - The Challenges from Recursion
 
 ## Our goal in Lab 05
 1. Learn to debug your code using vscode.
-2. Get an basic inspection of a recursion program.
+2. Get a basic inspection of a recursion program.
 3. Finish the problem in OJ.
 
 ## Fibonacci Series in Recursion
@@ -29,23 +29,23 @@ int main() {
 
 ```
 
-## Task 0:
+## Task 0: Preparation
 1. Get the Lab code from Github, and open the Lab folder in VS Code or your favorite editor.
-2. Create a folder call `.vscode` in the root directory of your Lab folder.
+2. Create a folder called `.vscode` in the root directory of your Lab folder.
 3. Copy `launch.json` and `tasks.json` into `.vscode` folder.
 
 
 ## Task 1: Debug lab05.cpp
-1. Run code and try to debug the lab05.cpp .
-2. Try to set breakpoint and press `continue`.
+1. Run code and try to debug the `lab05.cpp`.
+2. Try to set a breakpoint and press `continue`.
 3. Try to press `step over`, `step into` and `step out`.
 4. Try to debug lab05.cpp with input 5 step by step.
 
 
 ## Task 2: Complete Problem 1 - Small Robot Walks Big Maze in Recursion
 1. Please try to complete this task by recursion.
-2. You may use the approach you learned in this lab to debug your program. (Directly modify lab05.cpp is fine.)
-3. You `must` set a visited array to remember the location that robot visited in case for huge search space.
+2. You may use the approach you learned in this lab to debug your program. (You can directly use `lab05.cpp`.)
+3. You can set a visited array to remember the location that robot visited in case for huge search space.
 
 
 ## Additional Contents (VERY IMPORTANT)
