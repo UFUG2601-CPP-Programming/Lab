@@ -2,10 +2,10 @@
 CXX := g++
 
 # Source file
-SOURCE := lab04.cpp
+SOURCE := lab05.cpp
 
 # Executable name
-EXECUTABLE := lab04
+EXECUTABLE := lab05
 
 # Compile and link
 $(EXECUTABLE): $(SOURCE)
