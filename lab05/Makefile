@@ -9,7 +9,7 @@ EXECUTABLE := lab05
 
 # Compile and link
 $(EXECUTABLE): $(SOURCE)
-	$(CXX) -o -g $@ $<
+	$(CXX) -g $< -o $@
 
 run: $(EXECUTABLE)
 	./$^
