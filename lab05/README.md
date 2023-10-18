@@ -33,10 +33,11 @@ int main() {
 1. Get the Lab code from Github, and open the Lab folder in VS Code or your favorite editor.
 2. Create a folder called `.vscode` in the root directory of your Lab folder.
 3. Copy `launch.json` and `tasks.json` into `.vscode` folder.
-
+4. (Optional) Install C++ plugin if you havn't installeed it.
 
 ## Task 1: Debug lab05.cpp
 1. Run code and try to debug the `lab05.cpp`.
+<img width="303" alt="image" src="https://github.com/UFUG2601-CPP-Programming/Lab/assets/35094942/c55ff676-3cda-4ffc-8e4f-c01b3a29d19e">
 2. Try to set a breakpoint and press `continue`.
 3. Try to press `step over`, `step into` and `step out`.
 4. Try to debug lab05.cpp with input 5 step by step.
