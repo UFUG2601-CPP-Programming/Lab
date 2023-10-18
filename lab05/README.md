@@ -37,7 +37,7 @@ int main() {
 
 ## Task 1: Debug lab05.cpp
 1. Run code and try to debug the `lab05.cpp`.
-  1.1. <img width="303" alt="image" src="https://github.com/UFUG2601-CPP-Programming/Lab/assets/35094942/c55ff676-3cda-4ffc-8e4f-c01b3a29d19e">
+  <img width="303" alt="image" src="https://github.com/UFUG2601-CPP-Programming/Lab/assets/35094942/c55ff676-3cda-4ffc-8e4f-c01b3a29d19e">
 
 2. Try to set a breakpoint and press `continue`.
 3. Try to press `step over`, `step into` and `step out`.
