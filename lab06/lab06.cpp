@@ -60,7 +60,7 @@ public:
     bool overlap_with(Rectangle const & r);
 };
 
-// Finally, we can get another rectangle from the overlap area 
+// Finally, we can get another rectangle from the overlapped area 
 Rectangle overlap(const Rectangle & r1, const Rectangle & r2){
     // TODO: Complete this function
 }
