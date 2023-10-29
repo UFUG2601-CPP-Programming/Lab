@@ -6,7 +6,7 @@
 
 ## Abstraction Class - A way to think
 
-### 0. Problem: Intersection of Two Rectangles with Edges Paralleled to Axises
+### 0. Problem: Intersection of Two Rectangles with Edges Paralleled to Coordinate Axis
 
 ![Intersection of Two Rectangles](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Screenshot-16.png)
 
