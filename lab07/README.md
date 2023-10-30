@@ -47,33 +47,6 @@ public:
 ```
 (Optional) Thinking Time: What happens if no intersection point between 2 points? How to define an empty Point?
 
-```cpp
-optional<Point> intersect_with(const Line& l) {
-  // Calculate the intersection point of two line
-  double x1 = p1.x; 
-  double y1 = p1.y;
-  double x2 = p2.x;
-  double y2 = p2.y;
-  
-  double x3 = l.p1.x;
-  double y3 = l.p1.y;
-  double x4 = l.p2.x; 
-  double y4 = l.p2.y;
-  
-  double d = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4);
-  if (d == 0) {
-    // If there is no intersection point, two lines are parallel
-    return std::nullopt; 
-  }
-
-  double xi = ((x3 - x4) * (x1 * y2 - y1 * x2) - (x1 - x2) * (x3 * y4 - y3 * x4)) / d;
-  double yi = ((y3 - y4) * (x1 * y2 - y1 * x2) - (y1 - y2) * (x3 * y4 - y3 * x4)) / d;
-
-  // return the intersection point
-  return Point{xi, yi};
-}
-```
-
 ### 3. Define a Class of Rectangle
 
 ```cpp
@@ -97,10 +70,6 @@ public:
     Rectangle overlap_with(Rectangle const & r);
 };
 ```
-
-
-
-
 
 ## Task 1: Complete the Problem On OJ
 
@@ -181,3 +150,35 @@ int main(){
 
 - How to define an empty variable by using a C++ library? (Introduce optional\<T\>)
 
+## Additional Contents
+### The usage of `optional<T>`
+`optional<T>` is a class introduced since the C++ standard of **C++17**. If you want to use this class, please make sure that your compiler is set to this standard.
+
+The class can be used to represent a value that may or may not be present. 
+
+```cpp
+optional<Point> intersect_with(const Line& l) {
+  // Calculate the intersection point of two line
+  double x1 = p1.x; 
+  double y1 = p1.y;
+  double x2 = p2.x;
+  double y2 = p2.y;
+  
+  double x3 = l.p1.x;
+  double y3 = l.p1.y;
+  double x4 = l.p2.x; 
+  double y4 = l.p2.y;
+  
+  double d = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4);
+  if (d == 0) {
+    // If there is no intersection point, two lines are parallel
+    return std::nullopt; 
+  }
+
+  double xi = ((x3 - x4) * (x1 * y2 - y1 * x2) - (x1 - x2) * (x3 * y4 - y3 * x4)) / d;
+  double yi = ((y3 - y4) * (x1 * y2 - y1 * x2) - (y1 - y2) * (x3 * y4 - y3 * x4)) / d;
+
+  // return the intersection point
+  return Point{xi, yi};
+}
+```
