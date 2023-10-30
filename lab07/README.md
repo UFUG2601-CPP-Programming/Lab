@@ -2,7 +2,7 @@
 
 ## Our Goal in Lab 07
 
-1. Learn to use thought of class to solve problems.
+1. Learn to use the concept of class to solve problems.
 
 ## Abstraction Class - A way to think
 
@@ -45,11 +45,11 @@ public:
     Point intersect_with(const Line &l);
 };
 ```
-(Optional) Thinking Time: What happens if no intersection point between 2 points? How to define a empty Point?
+(Optional) Thinking Time: What happens if no intersection point between 2 points? How to define an empty Point?
 
 ```cpp
 optional<Point> intersect_with(const Line& l) {
-  // 计算两条线的交点
+  // Calculate the intersection point of two line
   double x1 = p1.x; 
   double y1 = p1.y;
   double x2 = p2.x;
@@ -62,14 +62,14 @@ optional<Point> intersect_with(const Line& l) {
   
   double d = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4);
   if (d == 0) {
-    // 两条线平行,无交点
+    // If there is no intersection point, two lines are parallel
     return std::nullopt; 
   }
 
   double xi = ((x3 - x4) * (x1 * y2 - y1 * x2) - (x1 - x2) * (x3 * y4 - y3 * x4)) / d;
   double yi = ((y3 - y4) * (x1 * y2 - y1 * x2) - (y1 - y2) * (x3 * y4 - y3 * x4)) / d;
 
-  // 返回交点
+  // return the intersection point
   return Point{xi, yi};
 }
 ```
@@ -179,5 +179,5 @@ int main(){
 
 ## Thinking Time
 
-- How to define a empty variable by using C++ library? (Introduce optional\<T\>)
+- How to define an empty variable by using a C++ library? (Introduce optional\<T\>)
 
