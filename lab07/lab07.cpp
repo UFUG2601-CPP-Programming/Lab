@@ -12,7 +12,7 @@ public:
     Point(){};
     Point(double x, double y) : x(x), y(y){};
     // Some computations for points
-
+    double distance_to(const Point &p);
 };
 // After that, lines can be constructed from the points
 class Line{
@@ -21,6 +21,8 @@ public:
     Point start, end;
     Line(){};
     Line(Point start, Point end) : start(start), end(end){};
+    double length();
+    Point intersect_with(const Line &l);
 };
 // There are operations for two lines as well
 Point intersection(const Line& l1, const Line& l2){
