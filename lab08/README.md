@@ -40,7 +40,7 @@ Since a lot of students report that the installer is not working or can't downlo
 
 Although these packages are for Qt 5.12.12, they shouldn't affect the lab tasks and assignments.
 
-Owing to network problem, it is better for you to download the qt environment through this ([onedrive link])(https://hkustgz-my.sharepoint.com/:f:/g/personal/zzheng989_connect_hkust-gz_edu_cn/EjmAxPxUoBZKgBtXkKgiYyUBBsG_nRJUjxDgEcz6Enll5g?e=BKQT3q).
+Owing to network problem, it is better for you to download the qt environment through this onedrive link: https://hkustgz-my.sharepoint.com/:f:/g/personal/zzheng989_connect_hkust-gz_edu_cn/EjmAxPxUoBZKgBtXkKgiYyUBBsG_nRJUjxDgEcz6Enll5g?e=BKQT3q.
 
 2. By default, suppose your username is **alice**, Qt is installed in
 `/home/**alice**/Qt/6.6.0/` folder. You can add the following lines to your `/.bashrc` file (using `vim` or `vscode`), and then open a new terminal (then these lines will take effect).
