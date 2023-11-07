@@ -31,12 +31,21 @@ Qt has an impressive collection of modules, and what we are going to use in the 
 ## Task 0: Get Your Qt
 
 1. Follow the instructions here([Install Qt Creator on Linux (stanford.edu)](https://web.stanford.edu/dept/cs_edu/resources/qt/install-linux#)) to install Qt Creator on Linux. The installer link is https://www.qt.io/download-qt-installer.
+
+### **Update:**
+Since a lot of students report that the installer is not working or can't download the software, here are the links for the offline installers that do not require the internet:
++ Windows: https://download.qt.io/archive/qt/5.12/5.12.12/qt-opensource-windows-x86-5.12.12.exe
++ Linux: https://download.qt.io/archive/qt/5.12/5.12.12/qt-opensource-linux-x64-5.12.12.run
++ macOS: https://download.qt.io/archive/qt/5.12/5.12.12/qt-opensource-mac-x64-5.12.12.dmg
+
+Although these packages are for Qt 5.12.12, they shouldn't affect the lab tasks and assignments.
+
 2. By default, suppose your username is **alice**, Qt is installed in
 `/home/**alice**/Qt/6.6.0/` folder. You can add the following lines to your `/.bashrc` file (using `vim` or `vscode`), and then open a new terminal (then these lines will take effect).
 
 ```bash
-export PATH="**/home/alice**/Qt/6.6.0/gcc_64/bin:${PATH}"
-export LD_LIBRARY_PATH="**/home/alice**/Qt/6.6.0/gcc_64/lib:${LD_LIBRARY_PATH}"
+export PATH="/home/alice/Qt/6.6.0/gcc_64/bin:${PATH}"
+export LD_LIBRARY_PATH="/home/alice/Qt/6.6.0/gcc_64/lib:${LD_LIBRARY_PATH}"
 ```
 
 3. Remember to replace `/home/alice` with your own username `/home/<your username>`.
