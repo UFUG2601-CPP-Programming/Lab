@@ -1,4 +1,4 @@
-# Lab09 - GUI Programming: A Roadmap to Implement a Requirement in qt
+# Lab09 - GUI Programming: Basic Widget in qt
 ## Our Goal in Lab 09
 1. Create a button. The button displays ○ before pressing and ● after pressing. 
 2. Create a menubar with `Open` and `Save` choice in `File` items, `Copy` and `Paste` in `Edit` item.
