@@ -26,6 +26,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(openAction, SIGNAL(triggered(bool)), this, SLOT(menuFileOpen()));
     connect(saveAction, SIGNAL(triggered(bool)), this, SLOT(menuFileSave()));
     connect(closeAction, SIGNAL(triggered(bool)), this, SLOT(menuFileClose()));
+
+    // TODO: Add a menu to change the apperance of the editor (e.g. color, font, size)
+
     // Set the menu bar for the main window
     setMenuBar(menuBar);
 }
@@ -56,7 +59,7 @@ void MainWindow::menuFileSave(){
     if(!openedFile->isOpen()){return;}
     QTextStream out(openedFile);
 
-    out << textEdit->toPlainText();
+    //TODO: Output the text in the textEdit to the file
 }
 
 void MainWindow::menuFileClose(){
