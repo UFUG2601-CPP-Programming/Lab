@@ -59,7 +59,8 @@ void MainWindow::menuFileSave(){
     if(!openedFile->isOpen()){return;}
     QTextStream out(openedFile);
 
-    //TODO: Output the text in the textEdit to the file
+    // TODO: Output the text in the textEdit to the file
+    // You can use textEdit->ToPlainText() to get the text in the box
 }
 
 void MainWindow::menuFileClose(){
