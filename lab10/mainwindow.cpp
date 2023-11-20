@@ -35,13 +35,13 @@ MainWindow::MainWindow(QWidget *parent)
 
 void MainWindow::menuFileOpen(){
 
-    QString filePath = QFileDialog::getOpenFileName(nullptr, "Open a file", ""
+    filePath = QFileDialog::getOpenFileName(nullptr, "Open a file", ""
                                                     , "Text Files (*.txt);;All Files (*)");
 
     if (filePath.isEmpty()) return; // end if no file selected
 
-    openedFile = new QFile(filePath);
-    if (!openedFile->open(QIODevice::ReadWrite | QIODevice::Text)) {
+    QFile* openedFile = new QFile(filePath);
+    if (!openedFile->open(QIODevice::ReadOnly | QIODevice::Text)) {
         QMessageBox::critical(nullptr, "Error", "Failed to open the file");
         return; // end if failed to open the file
     }
@@ -52,26 +52,34 @@ void MainWindow::menuFileOpen(){
 
     textEdit->setText(in.readAll());
 
+    openedFile->close();
+
     setCentralWidget(textEdit);
 }
 
 void MainWindow::menuFileSave(){
-    if(!openedFile->isOpen()){return;}
-    QTextStream out(openedFile);
+    if(filePath.isEmpty()){return;}
+    QFile* openedFile = new QFile(filePath);
+    if (!openedFile->open(QIODevice::WriteOnly | QIODevice::Text)) {
+        QMessageBox::critical(nullptr, "Error", "Failed to open the file");
+        return; // end if failed to open the file
+    }
 
+    QTextStream out(openedFile);
     // TODO: Output the text in the textEdit to the file
     // You can use textEdit->ToPlainText() to get the text in the box
+    
+    openedFile->close();
 }
 
 void MainWindow::menuFileClose(){
-    if(!openedFile->isOpen()){return;}
-    openedFile->close();
+    if(filePath.isEmpty()){return;}
+    filePath.clear();
     textEdit->close();
 }
 
 MainWindow::~MainWindow()
 {
-    delete openedFile;
     delete textEdit;
 }
 

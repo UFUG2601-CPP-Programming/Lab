@@ -25,6 +25,6 @@ private slots:
 
 private:
     QTextEdit *textEdit;
-    QFile *openedFile;
+    QString filePath;
 };
 #endif // MAINWINDOW_H
