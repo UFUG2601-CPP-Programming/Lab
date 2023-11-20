@@ -61,7 +61,8 @@ You can check the full list of APIs here: [QTextEdit Class | Qt Widgets 6.6.0](h
 2. Open the Qt project with Qt Creator or VS Code.
 3. Build and run the project.
 4. Implement the function of saving files in the `mainwindow.cpp`.
-5. Add a new menu to change the font, color, or other appearances of the editor.
+5. Open, edit and save the `example.txt` in the lab folder.
+6. Add a new menu to change the font, color, or other appearances of the editor.
 
 ## Thinking Time
 
