@@ -1,5 +1,5 @@
 # Lab 11 - Layout and Connection
-## Our Goal in Lab 10
+## Our Goal in Lab 11
 
 1. Creating Qt application with different `Layout`.
 2. Understand the machnism of `signal and slot`(connect) in Qt.
