@@ -4,7 +4,7 @@
 1. Creating Qt application with different `Layout`.
 2. Understand the machnism of `signal and slot`(connect) in Qt.
 
-## Introduction to Qt Layouts
+## Part A: Introduction to Qt Layouts
 Layouts in Qt are a fundamental aspect of creating GUI applications. They manage the size and position of widgets within a window, ensuring that the GUI is responsive and looks consistent across different devices and window sizes.
 
 ## Core Concepts
@@ -66,24 +66,8 @@ window->setLayout(formLayout);
 window->show();
 ```
 
-4. QStackedLayout
 
-
-Allows stacking of widgets on top of each other, showing one at a time. This is useful for implementing wizards or tab-like interfaces.
-
-```cpp
-QStackedLayout *stackedLayout = new QStackedLayout;
-
-stackedLayout->addWidget(new QLabel("Page 1"));
-stackedLayout->addWidget(new QLabel("Page 2"));
-
-QWidget *window = new QWidget;
-window->setLayout(stackedLayout);
-window->show();
-
-```
-
-5. (Optional) Advanced Layout Management: Nesting Layouts
+4. (Optional) Advanced Layout Management: Nesting Layouts
 
 You can nest layouts within each other. This is a powerful feature for creating complex interfaces.
 
@@ -155,3 +139,107 @@ public:
 #endif // MAINWINDOW_H
 
 ```
+
+6. Your Task
+
+
+Run different layout by your own.
+
+## Part B: Understand Signal and Slot in Qt
+
+1. Understanding Signals and Slots
+
+Qt uses a mechanism called signals and slots to allow communication between objects. A signal is emitted when a particular event occurs, and a slot is a function that is called in response to a particular signal. This mechanism is a core feature of Qt and a big part of what makes it powerful and flexible.
+
+2. Declaring Signals and Slots
+**Signals**: Declared in a class using the signals keyword. They are member functions that are only declared, not defined.
+**Slots**: Normal C++ member functions and can be public, protected, or private. They are declared using the slots keyword.
+
+Example:
+
+```cpp
+class MyClass : public QObject {
+    Q_OBJECT // This macro must appear in the private section of a class that declares its own signals and slots
+
+public:
+    MyClass();
+
+signals:
+    void mySignal();
+
+public slots:
+    void mySlot();
+};
+
+```
+
+3. Implementing a Slot:
+
+Slots are implemented like normal C++ member functions. For example,
+
+```cpp
+void MyClass::mySlot() {
+    // Your code here
+}
+```
+
+4. Connecting Signals to Slots
+
+You connect a signal to a slot using the `connect` function. For instance:
+
+```cpp
+MyClass obj;
+QObject::connect(&obj, &MyClass::mySignal, &obj, &MyClass::mySlot);
+```
+
+5. Emitting Signals
+
+Signals are emitted using the `emit` keyword, followed by the signal name and its parameters. For example:
+
+```cpp
+emit mySignal();
+```
+
+6. A Pratical Example
+
+
+Here's a simple example of how you might use signals and slot in Qt application
+
+```cpp
+// MyClass.h
+#include <QObject>
+
+class MyClass : public QObject {
+    Q_OBJECT
+
+public:
+    MyClass();
+
+signals:
+    void valueChanged(int newValue);
+
+public slots:
+    void setValue(int value);
+
+private:
+    int m_value;
+};
+
+// MyClass.cpp
+#include "MyClass.h"
+
+MyClass::MyClass() : m_value(0) {}
+
+void MyClass::setValue(int value) {
+    if (value != m_value) {
+        m_value = value;
+        emit valueChanged(value);
+    }
+}
+```
+
+In this example, `setValue` is a slot that updates `m_value` and emits `valueChanged` if the value actually changes. Other part of the application can connect the `valueChanged` signal to react to changes to `m_value`.
+
+7. Your task
+
+Try to understand and describe the logic in folder `connect` using the description above.
